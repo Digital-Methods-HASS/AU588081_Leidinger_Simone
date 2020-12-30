@@ -1,3 +1,6 @@
+# Final project:
+# Places of origin and occupations in records about citizenship in Aarhus between 1740 and 1864 – continuity and changes explored in RStudio
+
 # I activate tidyverse
 library(tidyverse)
 
@@ -117,6 +120,9 @@ newdata_plotting  %>%
   count(V20, sort = TRUE) %>%
   ggplot(aes(x = V20, y = n)) +
   geom_col()
+
+
+
 
 
 
